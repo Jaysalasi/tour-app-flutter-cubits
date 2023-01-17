@@ -15,13 +15,11 @@ class DataServices {
       if (res.statusCode == 200) {
         log(res.statusCode.toString());
         List<dynamic> list = json.decode(res.body);
-        print(list);
         return list.map((e) => DataModel.fromJson(e)).toList();
       } else {
         return <DataModel>[];
       }
     } catch (e) {
-      print(e);
       return <DataModel>[];
     }
   }

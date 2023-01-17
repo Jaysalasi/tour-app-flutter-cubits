@@ -72,7 +72,7 @@ class _WelcomePageState extends State<WelcomePage> {
                       onTap: () {
                         BlocProvider.of<CubitCubit>(context).getData();
                       },
-                      child: Container(
+                      child: SizedBox(
                         width: 200,
                         child: Row(
                           children: [

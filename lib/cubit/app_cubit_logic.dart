@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tourism/cubit/cubit_cubit.dart';
-import 'package:tourism/pages/details_page.dart';
-import 'package:tourism/pages/nav_pages/homepage.dart';
+import 'package:tourism/pages/details_page.dart'; 
 import 'package:tourism/pages/nav_pages/main_page.dart';
 import 'package:tourism/pages/welcome_page.dart';
 
